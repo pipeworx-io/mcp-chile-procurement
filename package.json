@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-chile-procurement",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Chile Government Procurement MCP — Mercado Público / ChileCompra (keyless-ish).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-d4423086a50c4889eb2619e4d166335d255414dfedbeea9596cc5378d59adcd3",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-c46f00e1ec8c597b388c5468d9403d30fc8cfe0967cd1582fc3f241c76ae0647",
+    "sourceCommit": "babdd280d475dceddecc9ebf8f2a661712781a81"
   }
 }
