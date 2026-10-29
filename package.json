@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-chile-procurement",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Chile Government Procurement MCP — Mercado Público / ChileCompra (keyless-ish).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-chile-procurement": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "chile-procurement"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-chile-procurement.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/chile-procurement",
   "pipeworx": {
-    "sourceHash": "v1-0bf0a8f46e5444dd28443717dbc2f81c022692bde5d9b5a242c26cd2f1a9fd6b",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "chile-procurement",
+    "gatewaySlug": "chile-procurement",
+    "sourceHash": "v1-a1e9967dd0767426e5ad568689281190cc33756d76a55cc8adfaccfe39b1cd2f",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
