@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-chile-procurement",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Chile Government Procurement MCP — Mercado Público / ChileCompra (keyless-ish).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "chile-procurement",
     "gatewaySlug": "chile-procurement",
-    "sourceHash": "v1-a1e9967dd0767426e5ad568689281190cc33756d76a55cc8adfaccfe39b1cd2f",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-eeca2efb3cd983e1f840b86e1217ce70316b03d96f51706e99481839ec5c8fdc",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
